@@ -1,0 +1,21 @@
+{
+	"JOB3": {
+		"title": "JOB 3",
+		"dates": "DATES OF WORK",
+		"location": "JOB LOCATION",
+		"description": "JOB DESC HERE"
+	},
+	"JOB2": {
+		"title": "JOB 2",
+		"dates": "DATES OF WORK",
+		"location": "JOB LOCATION",
+		"description": "JOB DESC HERE"
+	},
+
+	"JOB1": {
+		"title": "JOB 1",
+		"dates": "DATES OF WORK",
+		"location": "JOB LOCATION",
+		"description": "JOB DESC HERE"
+	}
+}

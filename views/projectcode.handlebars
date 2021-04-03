@@ -1,0 +1,20 @@
+<main class="content" id="project-page-code">
+
+	<h3 id="project-code-title">{{title}} Code</h3>
+
+	<div id="code-module">
+		<div id="list-filenames">
+			{{! the below may have issues with 'filenames'}}
+			{{#each files}}
+				{{>filename}}
+			{{/each}}
+		</div>
+		
+		<div id="display-file">
+			{{#each files}}
+				{{>filedisplay}}
+			{{/each}}
+		</div>
+	</div>
+
+</main>

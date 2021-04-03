@@ -1,0 +1,479 @@
+/* WHOLE DOCUMENT */
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: "Open Sans";
+	background-color: #96bdc6;
+
+	margin: 0;
+	position: relative;
+	min-height: 100%;
+	min-width: 100%;
+}
+
+.content {
+	padding: 1rem 0rem 10rem;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/* RESPONSIVE STRUCTURE */
+
+/*
+@media only screen and (max-width: 480px) { }
+*/
+
+@media only screen and (max-width: 900px) {
+	#top-bar {
+	}
+
+	#header-links {
+		display: flex;
+		flex-direction: row;
+		justify-content: right;
+	}
+
+	#header-links a {
+		font-size: 5vw;
+		margin: 0 1rem;
+	}
+
+	#website-title {
+		font-size: 12vw;
+	}
+
+	#goto-code, #goto-demo {
+		padding: 1vw 10vw;
+		//font-size: 1.3vw;
+	}
+
+	/* CODE & DEMO - EDIT LATER */
+
+	#project-code-title, #project-demo-title {
+		margin: 1vw 0;
+		font-size: 1.5vw;
+	}
+
+	#demo-display {
+		padding: 2vw;
+	}
+
+	object {
+
+	}
+
+	#code-module {
+		margin: 2vw;
+	}
+
+	#list-filenames {
+		min-width: 15vw
+	}
+
+	#display-file {
+		width: 60vw;
+		height: 50vh;
+	}
+
+	.look-at-file {
+		margin: .5vw .5vw 0;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+
+	/* HEADER BAR */
+
+	#top-bar {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	#header-links {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		margin: .3vw 1.5vw .3vw 0;
+	}
+
+	#header-links a {
+		text-align: right;
+		font-size: 1.75vw;
+	}
+	#website-title {
+		margin: 0 0 1.2vw 1.25vw;
+		font-size: 5.5vw;
+	}
+
+	/* NAVBAR */
+
+	#navbar {
+		display: flex;
+		flex-direction: row;
+		justify-content: left;
+	}
+
+	#navbar a {
+		font-size: 1.75vw;
+		padding: 0 1.25vw .3vw 1.25vw;
+	}
+
+	/* PORTFOLIO */
+
+	#skills-list {
+		font-size: 1.3vw;
+	}
+
+	#projects-list {
+	}
+
+	#individual-post {
+		width: 75vw;
+	}
+
+	#project-title {
+		font-size: 1.5vw;
+		margin: .9vw .4vw;
+	}
+
+	#project-contents {
+		display: flex;
+		justify-content: space-between;
+		font-size: .85vw;
+		min-height: 8.5vw;
+		//min-height: 10rem;
+		padding: 0 1vw;
+	}
+
+	#goto-buttons {
+		min-width: 50%;
+		margin: .9vw;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	#goto-code, #goto-demo {
+		padding: 2vw 5vw;
+		font-size: 1.3vw;
+	}
+
+	/* CODE & DEMO */
+
+	#project-code-title, #project-demo-title {
+		margin: 1vw 0;
+		font-size: 1.5vw;
+	}
+
+	#demo-display {
+		padding: 2vw;
+	}
+
+	object {
+
+	}
+
+	#code-module {
+		margin: 2vw;
+	}
+
+	#list-filenames {
+		min-width: 15vw
+	}
+
+	#display-file {
+		width: 60vw;
+		height: 50vh;
+	}
+
+	.look-at-file {
+		margin: .5vw .5vw 0;
+	}
+
+	/* SUMMARY */
+
+	#summary-para {
+		font-size: 1vw;
+	}
+
+	/* EXPERIENCE */
+
+	#experience-list {
+		padding: 1vw 10vw 10vw;
+	}
+
+	#individual-position {
+		padding: 1vw 0;
+		font-size: 1vw;
+	}
+
+	/* EDUCATION */
+
+	#education-list {
+		padding: 1vw 10vw 10vw;
+	}
+
+	#individual-degree {
+		padding: 1vw 0 5vw;
+		font-size: 1vw;
+	}
+
+	/* 404 PAGE */
+
+	#section-404 {
+		padding: 8%;
+	}
+
+	#section-404 h2, #section-404 h3 {
+		font-size: 1.2vw;
+		margin: .4vw;
+	}
+
+	#cute-spider {
+		font-size: 2vw;
+	}
+
+}
+
+
+/* HEADER BAR */
+
+#top-bar {
+	border: 3px solid black;
+	border-style: none none solid none;
+	background-color: #36393f;
+	text-shadow: 0px 0px 1px white, 2px 2px 1px black;
+}
+
+#header-links {
+
+}
+
+#header-links a {
+	color: white;
+}
+
+#website-title {
+	color: white;
+}
+
+/* NAV BAR */
+
+#navbar {
+	border: 3px solid black;
+	border-style: none none solid none;
+	box-shadow: 0px 4px 10px -2px grey;
+	background-color: white;
+}
+
+#navbar a {
+	border: 3px solid black;
+	border-style: none solid none none;
+}
+
+/* FOOTER */
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #36393f;
+	border: 3px solid black;
+	border-style: solid none none none;
+	padding: 1rem 0;
+}
+
+#email-contact {
+	margin-left: 1.5rem;
+}
+
+#footer-links {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-right: 1.5rem;
+}
+
+#footer-links a {
+	text-align: right;
+}
+
+footer a, footer p {
+	color: white;
+}
+
+/* PORTFOLIO */
+
+#skills-list {
+	text-align: center;
+}
+
+#projects-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#individual-post {
+	margin: 2vw;
+}
+
+#project-title {
+	text-shadow: 0px 1px 3px grey;
+}
+
+#project-contents {
+	border: 3px solid black;
+	background-color: #36393f;
+	box-shadow: 0px 4px 10px grey;
+	color: white;
+}
+
+#goto-buttons {
+	min-width: 50%;
+	margin: .9vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#goto-code, #goto-demo {
+	border: 3px solid black;
+	text-align: center;
+	font-weight: bold;
+	background-color: white;
+}
+
+/* PASSWORD */
+
+#password-prompt {
+	display: flex;
+	justify-content: center;
+	padding: 10rem 0rem;
+	font-size: 1.2rem;
+}
+
+#pw-prompt {
+	font-size: 1rem;
+}
+
+#pw-submit {
+	background-color: #36393f;
+	color: white;
+	border: 1px solid black;
+	font-size: 1rem;
+}
+
+/* CODE & DEMO */
+
+#project-code-title, #project-demo-title {
+	text-align: center;
+}
+
+#demo-display {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+object {
+	border: 1px solid black;
+	box-shadow: 0px 4px 10px -2px grey;
+	background-color: black;
+}
+
+#code-module {
+	display:flex;
+	justify-content: center;
+}
+
+#list-filenames {
+	display: flex;
+	flex-direction: column;
+	border: 3px solid black;
+	border-right: none;
+	background-color: #36393f;
+	
+}
+
+.look-at-file {
+	border: none;
+	background-color: #2b2e33;
+	color: white;
+}
+
+#display-file {
+	border: 3px solid black;
+	background-color: #bdc3cb;
+	color: white;
+}
+
+.file-text {
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+/* SUMMARY */
+
+#summary-para {
+	text-align: center;
+	padding: 2vw 15vw;
+	display: flex;
+	flex-direction: column;
+	jusify-content: space-around;
+}
+
+/* EXPERIENCE */
+
+#experience-list {
+	display: flex;
+	flex-direction: column;
+}
+
+#individual-position {
+
+}
+
+/* EDUCATION */
+
+#education-list {
+
+}
+
+#individual-degree {
+
+}
+
+#degree-title {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* 404 PAGE */
+
+#section-404 {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
+
+#section-404 h2, #section-404 h3 {
+
+}
+
+#cute-spider {
+
+}

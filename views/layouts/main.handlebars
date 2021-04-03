@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title> {{#if summary}}Summary - {{/if}}
+			{{#if experience}}Experience - {{/if}}
+			{{#if education}}Education - {{/if}}
+			Code Portfolio - NAME HERE</title>
+		<link rel="icon" href="/title_icon.png" type="image/x-icon">
+		<link rel="stylesheet" href="/style.css" charset="utf-8" defer>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css" crossorigin="anonymous">
+
+		<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.runtime.js" charset="utf-8" defer></script>
+		<script src="/index.js" charset="utf-8" defer></script>
+	</head>
+
+	<body>
+
+		<header>
+			<div id="top-bar">
+				<a id="website-title" href="/">NAME HERE</a>
+
+				<div id="header-links">
+					<a href="https://github.com/" target="_blank">Github</a>
+					<a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+					<a href="/example_resume.pdf" download>Resume</a>
+				</div>
+			</div>
+
+			<nav id="navbar">
+				<a {{#if summary}}class="active"{{/if}} href="/summary/">Summary</a>
+					{{#if x}}<i class="fas fa-caret-down"></i>{{/if}}
+				<a {{#if portfolio}}class="active"{{/if}} href="/portfolio/">Portfolio</a>
+				<a {{#if experience}}class="active"{{/if}} href="/experience/">Experience</a>
+				<a {{#if education}}class="active"{{/if}} href="/education/">Education</a>
+			</nav>
+
+		</header>
+
+
+		{{{body}}}
+
+
+		<footer>
+
+			<div id="email-contact">
+				<p>For inquiries:</p>
+				<p>EMAIL HERE</p>
+			</div>
+
+			<div id="footer-links">
+				<a href="https://github.com/" target="_blank">Github</a>
+				<a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+				<a href="/example_resume.pdf" download>Resume</a>
+			</div>
+
+		</footer>
+
+	</body>
+
+</html>

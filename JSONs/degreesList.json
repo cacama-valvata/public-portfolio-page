@@ -1,0 +1,13 @@
+{
+	"DEGREE2": {
+		"name": "DEGREE 2 NAME",
+		"date": "DATE ACCOMPLISHED",
+		"location": "DEGREE SCHOOL"
+	},
+
+	"DEGREE1": {
+		"name": "DEGREE 1 NAME",
+		"date": "DATE ACCOMPLISHED",
+		"location": "DEGREE SCHOOL"
+	}
+}

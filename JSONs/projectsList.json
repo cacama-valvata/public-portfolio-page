@@ -1,0 +1,51 @@
+{
+	"PROJECT1": {
+		"title": "PROJECT 1",
+		"description": "DESCRIPTION HERE",
+		"files": [
+			{
+				"filename": "FILE1.js",
+				"filepath": "/projects/PROJECT1/FILE1.txt"
+			},
+			{
+				"filename": "FILE2.txt",
+				"filepath": "/projects/PROJECT1/FILE2.txt"
+			}
+		],
+		"executable": "/projects/PROJECT1/PROJECT1.py",
+		"video": "/projects/PROJECT1/PROJECT1.mp4"
+	},
+
+	"PROJECT2": {
+		"title": "PROJECT 2",
+		"description": "DESCRIPTION HERE",
+		"files": [
+			{
+				"filename": "FILE1.py",
+				"filepath": "/projects/PROJECT2/FILE1.txt"
+			},
+			{
+				"filename": "FILE2.txt",
+				"filepath": "/projects/PROJECT2/FILE2.txt"
+			}
+		],
+		"executable": "/projects/PROJECT2/PROJECT2.py",
+		"video": "/projects/linesweep/PROJECT2.mp4"
+	},
+	"PROJECT3": {
+		"title": "PROJECT 3",
+		"description": "DESCRIPTION HERE",
+		"files": [
+			{
+				"filename": "FILE1.h",
+				"filepath": "/projects/PROJECT3/FILE1.txt"
+			},
+			{
+				"filename": "FILE2.cpp",
+				"filepath": "/projects/PROJECT3/FILE2.txt"
+			}
+		],
+		"executable": "/projects/PROJECT3/PROJECT3.py",
+		"video": "/projects/PROJECT3/PROJECT3.mp4"
+	}
+}
