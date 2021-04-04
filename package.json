@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/colleyc-osu/portfolio-page.git"
+    "url": "git+https://github.com/colleyc-osu/public-portfolio-page.git"
   },
   "keywords": [
     "portfolio",
@@ -20,9 +20,9 @@
   "author": "Casey Colley",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/colleyc-osu/portfolio-page/issues"
+    "url": "https://github.com/colleyc-osu/public-portfolio-page/issues"
   },
-  "homepage": "https://github.com/colleyc-osu/portfolio-page#readme",
+  "homepage": "https://github.com/colleyc-osu/public-portfolio-page#readme",
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
